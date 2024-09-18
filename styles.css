@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type:none;
+}
+ /* Navigation Bar Styles */
+.navbar {
+    background-color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.navdiv {
+    margin-left:auto; /*  push the navigation menu to the right */
+}
+/*Navigation Links */
+.navdiv ul {
+    display: flex;
+    list-style: none;
+}
+
+.navdiv li {
+    margin: 0 20px;
+}
+
+.navdiv li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+}
+.logo {
+    position: relative;
+    margin-left: 75px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 60px;
+    cursor: pointer;
+}
+.navdiv1{
+    margin-left: 150px;
+    margin-top: -35px;
+}
+.navdiv1 ul{
+    display: flex;
+    list-style: none;
+}
+.navdiv1 li{
+    margin: 0 10px;
+}
+.navdiv1 li a {
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center; 
+}   
+
+.mainphoto img {
+    width: 100%;
+    height: 800px;
+    
+}
+.content {
+    width: 100%;
+    position: absolute;
+    margin-left: 20px;
+    top: 50%;
+    transform: translate(-50);
+    text-align: left;
+    color: #fff;
+}
+.content h1{
+    font-size: 45px;
+    margin-top: 40px;
+}
+.content p{
+    margin-left: 3px;
+}
+.navdiv2{
+    margin-left: 25%;
+    margin-top: -10px;
+    display: flex;
+    list-style: none;
+    
+}
+.navdiv2 ul{
+    display: flex;
+    list-style: none;
+
+}
+
+
+.navdiv2 li{
+    margin: 0 10px;
+    display: flex;
+   
+}
+.navdiv2 li a {
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; 
+    
+} 
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+.title{
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.pa{
+    margin-top: 20px;
+}
+
+
+
+.photogrid{
+    display: flex;
+    gap: 20px;
+    margin-bottom:160px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: row;  
+    gap: 20px;  
+}  
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.photo{
+   flex:1;
+    background-color: #b21d1d;
+}
+.title3{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+/* ..........Footer..................... */
+
+.footersec{
+
+    width: 100%;
+    height: 800px;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding-top: 20px 15%  10px;
+    
+}
+.horizontal-line{
+    height: 0.2px;
+    background-color:#fff;
+    border-width:0;
+    margin-left: 80px;
+    margin-right: 80px; 
+    justify-content: space-between;
+   
+}
+
+.footercontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 80px;
+   
+}
+
+.brandn{
+    text-align: justify;
+    margin-left: 240px;
+    margin-top: 60px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+   
+    padding: 20px 40px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+
+}
+.footertext{
+flex: 1;
+max-width: 400px;
+text-align: justify;
+
+
+}
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+.end-text{
+    margin-top: 30px;
+}
+.end-btn{
+    background:rgb(163, 163, 179);
+    padding: 10px 80px;
+}
+.copyright-text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+
+
+
